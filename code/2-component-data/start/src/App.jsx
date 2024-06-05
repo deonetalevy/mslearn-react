@@ -40,7 +40,8 @@ function App() {
             <IngredientList ingredients={recipe.ingredients}/>
 
             {/* Steps component */}
-            <StepList steps={ recipe.steps} title={ recipe.title + ' Recipe Steps'}/>
+            <StepList steps={ recipe.steps} title={ recipe.title + ' Recipe Steps'}
+            />
 
         </article>
     )
